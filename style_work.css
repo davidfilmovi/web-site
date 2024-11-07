@@ -56,4 +56,10 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 15px;
   }
+
+  .grid {
+    height: 100%;
+    margin: 50px;
+    margin-top: 100px;
+  }
 }
