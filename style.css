@@ -16,3 +16,7 @@ body {
 .container-fluid a {
   color: rgb(54, 54, 143);
 }
+
+.container-fluid a:hover {
+  color: #7570ad;
+}
