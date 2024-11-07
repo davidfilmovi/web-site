@@ -45,7 +45,6 @@ p {
 .footer-flex {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   gap: 2%;
   margin-bottom: 5%;
   margin-right: 2%;
