@@ -1,0 +1,56 @@
+.grid {
+  color: white;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  text-align: justify;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+@media (max-width: 756px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    width: 70%;
+    align-self: center;
+    position: static;
+    top: 0;
+  }
+
+  .menu-item > a {
+    background-color: black;
+    color: rgb(54, 54, 143);
+  }
+
+  .menu-item > a:hover {
+    color: #7570ad;
+    background-color: black;
+  }
+
+  #item-1 {
+    display: none;
+  }
+
+  .header-main {
+    position: relative;
+  }
+
+  #item-2 {
+    position: absolute;
+    left: 0;
+  }
+
+  #item-3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #item-4 {
+    position: absolute;
+    right: 0;
+  }
+}

@@ -7,7 +7,11 @@ body {
 @media (max-width: 991px) {
   .offcanvas {
     background-color: rgba(13, 9, 9, 0.05);
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(10px);
+  }
+
+  #offcanvasNavbar {
+    width: 40%;
   }
 }
 
@@ -37,6 +41,7 @@ body {
   font-size: 1rem;
   color: rgb(54, 54, 143);
   padding-top: 30px;
+  padding-right: 1rem;
 }
 
 .menu-item > a {
@@ -56,7 +61,7 @@ body {
 }
 
 #item-1 {
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 .grid {
