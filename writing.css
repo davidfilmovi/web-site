@@ -83,6 +83,58 @@ body {
   margin: 5%;
 }
 
+.grid-writing {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  column-gap: 25px;
+  row-gap: 25px;
+  margin: 5%;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 5%;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px;
+  border-color: red;
+}
+
+.quote-container > p {
+  color: white;
+  width: 75%;
+  text-align: justify;
+  background-color: rgb(54, 54, 143);
+}
+
+.text-container > p > a {
+  color: rgb(54, 54, 143);
+  text-decoration: none;
+}
+
+.text-container > p > a:hover {
+  color: #7570ad;
+}
+
+p {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: rgb(54, 54, 143);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 .image {
   width: 100%;
   height: 100%;

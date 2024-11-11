@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="writing.css" />
+    <link rel="stylesheet" href="film.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
@@ -59,20 +60,137 @@
               <a href="work.html">work</a>
             </li>
 
-            <li class="menu-item">
+            <li id="item-2" class="menu-item">
               <a href="writing.html">writing</a>
             </li>
 
-            <li class="menu-item">
+            <li id="item-3" class="menu-item">
               <a href="performance.html">performance</a>
             </li>
 
-            <li class="menu-item current-menu-item"">
+            <li id="item-4" class="menu-item current-menu-item"">
               <a href="film.html" aria-current="page"> film </a>
             </li>
           </ul>
         </div>
       </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="film col-md-8 col-sm-12">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="lov-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="lov-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="lov-3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="lov-4.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="title">
+              <p>
+                DRAGON HUNT (17' 29'', Film)
+              </p>
+            </div>
+            <div class="text">
+              <p>
+                Taking Samuel Delany’s SciFi novel ‘Stars In My Pocket Like Grains of
+                Sand’ as a point of departure, this experimental mid-length is at once
+                a dance, fantasy, and a queer road film. Its protagonists, animated by
+                the weirdening landscape of the Dalmatian Hinterland and enraptured by
+                the sound of the conch shell, partake in the melding tradition of Dragon
+                Hunting. An exploration in media translation, mimicry, and the sensuous,
+                Dragon Hunt is a result of collaborative processes between fellow artist
+                friends and different machine learning algorithms.
+              </p>
+            </div>
+            <hr/>
+            <div class="showings">
+              <p>Antimatter 2024</p>
+              <p>Bucharest International Dance Film Festival 2024</p>
+              <p>Oned Film Festival 2024</p>
+              <p>Defy Film Festival 2024</p>
+              <p>Alternative Film and Video 2024</p>
+              <p>CineToro 2024</p>
+              <p>Animafest Zagreb 2024</p>
+              <p>25 FPS – International Experimental Film and Video Festival 2024</p>
+            </div>
+          </div>
+          
+          <div class="credits col-md-4 col-sm-12">
+            <div class="credits-main">
+              <hr class="showings-credits"/>
+              <p class="lijevo">
+                written, directed,<br>
+                designed, animated &<br>
+                edited by
+              </p>
+              <p class="desno">
+                marko gutić mižimakov
+              </p>
+              <p class="lijevo">
+                camera
+              </p>
+              <p class="desno">
+                lea anić
+              </p>
+              <p class="lijevo">
+                cast
+              </p>
+              <p class="desno">
+                sonja pregrad <br>
+                lana hosni <br>
+                discollective <br>
+                nika pećarina <br>
+                marko gutić mižimakov <br>
+              </p>
+              <p class="lijevo">
+                saxophone
+              </p>
+              <p class="desno">
+                max franklin
+              </p>
+              <p class="lijevo">
+                additional help
+              </p>
+              <p class="desno">
+                neža knez <br>
+                ivna franić <br>
+                petar sarjanović <br>
+                max brands <br>
+              </p>
+              <p class="lijevo">
+                production
+              </p>
+              <p class="desno">
+                queeranarchive, split
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>

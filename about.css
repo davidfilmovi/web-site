@@ -1,19 +1,15 @@
 body {
-  background: url(Less-than-the-sum-background.jpg);
-  background-blend-mode: multiply;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: black;
+}
+
+p {
+  color: white;
 }
 
 @media (max-width: 991px) {
   .offcanvas {
     background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(0px);
-  }
-
-  #offcanvasNavbar {
-    width: 40%;
   }
 }
 
@@ -23,4 +19,9 @@ body {
 
 .container-fluid a:hover {
   color: #7570ad;
+}
+
+.profile-img {
+  border-radius: 0%;
+  margin: 20px;
 }
